@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    .attribution { 
+      font-size: 11px; 
+      position: fixed;     
+      text-align: center;    
+      bottom: 0px; 
+      width: 100%;
+    }
+    .attribution a { color: hsl(228, 45%, 44%);}
+    img {
+            border-radius: 10px; 
+            width: 100%; 
+            height: auto;
+    }
+    body{
+    background-color: rgb(214, 226, 240);
+    height: 100%;
+    overflow: hidden;
+    }
+    .QrContainer{
+      margin:auto;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px; 
+      background-color: white;
+      width: 21%; 
+      height: 70%;
+      padding: 1%;
+      text-align: center;
+      filter: drop-shadow(0px 16px 10px #c3cad5);
+    }
+    .Container{
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+    }
+    h1{
+      color: rgb(31, 50, 81);
+      font-family: "Outfit";
+      font-size: 25px;
+      font-weight: 700;
+      padding: 1%;
+    }
+    p{
+      color: rgb(104, 119, 141);
+      font-family: "Outfit";
+      font-size: 17px;
+      font-weight: 400;
+      padding: 1%;
+    }
+  </style>
+</head>
+<body>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="IthaquaLover">Your Name Here</a>.
+  </div>
+<div class="Container">
+  <div class="QrContainer">
+    <img src="images/image-qr-code.png">
+    <h1> Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</div>
+</body>
+</html>
